@@ -1,0 +1,22 @@
+.header{
+    background-color: $magenta;
+    ul{
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        a{
+            background-color: #ffe4c428;
+            color: white;
+            display: flex;
+            width: 150px;
+            margin: 20px;
+            padding: 5px;
+            justify-content: center;
+            font-family: $fuente-titulo;
+            &:hover{
+                background-color: #ffe4c48a;
+            }
+        }
+    }
+}

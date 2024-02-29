@@ -1,0 +1,11 @@
+// LAS VARIABLES VAN SIEMPRE AL COMIENZO
+
+// UTILIDADES
+@import './utilidades/variables';
+@import './utilidades/reseteo';
+@import './utilidades/extend';
+
+// SECCIONES
+@import './secciones/header';
+@import './secciones/contenido';
+@import './secciones/footer';
