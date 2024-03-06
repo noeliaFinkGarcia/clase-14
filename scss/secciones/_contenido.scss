@@ -40,6 +40,7 @@ button{
     justify-content: space-around;
     .seccion-uno{
         transform: scale(0.7) skew(5deg);
+        transition: all 5s;
         // Mixin
         @include fondo-destacado(pink);
     }
@@ -48,8 +49,16 @@ button{
         button {
             transform: translate (0, 30px);
         }
+
     }
-    .seccion-tres{
-        @include fondo-destacado(#fab128)
+    .seccion-dos{
+        @include fondo-destacado (#5c5cfb);
+        h3{
+            animation-name: latido;
+            animation-duration: 5s;
+            // Cuantas veces quiero que se repita
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+        }
     }
 }
